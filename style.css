@@ -1,0 +1,169 @@
+body{
+   width: 100%;
+   background-image: url("./sky.jpg");
+}
+.potifolio_container{
+    /* background-color: blueviolet; */
+    display: inline-flex;
+    width: 600px;
+    height: 700px;
+    flex-direction: column;
+    margin-left: 300px;
+    
+
+}
+
+.potifolio_container>.section1{
+    background-color: black;
+    border:10px solid black;
+    flex-basis:40px ;
+    display: flex;
+    justify-content: space-between;
+    height:8vh;
+    gap: 20px;
+    font-weight: bold;
+    font-family: 'Agdasima', sans-serif;
+    padding-left: 20px;
+    color: white;
+
+}
+.section2{
+    background-color: whitesmoke;
+    width: 600px;
+    height: 400px;
+    
+}
+
+.section2>img{
+    width: 300px;
+    height: 400px;
+    float: right;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    font-family: 'Agdasima', sans-serif;
+}
+h2{
+    text-align: center;
+    color: coral;
+    font-family: 'Agdasima', sans-serif;
+}
+
+p{
+    text-align: center;
+}
+.view-butoon{
+    background-color: coral;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Agdasima', sans-serif;
+    margin-left: 100px;
+}
+
+
+.name{
+    
+    align-self: flex-start;
+    flex-basis: 100px;
+    border-radius: 5px;
+    padding-right: 200px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.circle{
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    /* border: 5px grey; */
+    border-radius: 50%;
+    text-align: center;
+    color: darkslategray;
+    font-weight: bold;
+}
+.home{
+    font-family: 'Agdasima', sans-serif;
+}
+.about{
+    font-family: 'Agdasima', sans-serif;
+}
+
+.contact{
+    font-family: 'Agdasima', sans-serif;
+}
+.potifolio_container>.section3{
+    background-color: whitesmoke;
+    flex-basis: 300px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap;  */
+    gap: 5px;
+    
+    justify-content: center;
+    align-items: center; 
+    
+   
+
+}
+li{
+    list-style: none;
+    text-align: center;
+    font-family: 'Agdasima', sans-serif;
+    font-size: 1rem;
+    /* padding-bottom: 5px; */
+}
+.web{
+background-color: gainsboro;
+width: 200px;
+height: 150px;
+
+
+
+
+}
+.service-title{
+    background-color: white;
+    flex-basis:300px ;
+    height: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Agdasima', sans-serif;
+}
+.par-title{
+    font-size: 1rem;
+    width: 100%;
+    font-weight: normal;
+    font-family: 'Agdasima', sans-serif;
+}
+.title{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Agdasima', sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  
+}
+
+
+
+@media(min-width:1204px) {
+   
+}
+.footer{
+    background-color: whitesmoke;
+    flex-basis: 300px;
+    text-align: center;
+    font-family: 'Agdasima', sans-serif;
+}
